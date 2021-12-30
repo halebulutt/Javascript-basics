@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /* fontcolor(); kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini
+        renklendirerek değeri geriye döndürür. */ 
+
+        var isim = "Hale";
+        document.write(isim + "<br/>");
+
+        var renklendir = isim.fontcolor("red");
+
+        document.write(renklendir + "<br/>");
+
+        /* fontsize(); kendisine verilen parametre olarak belirtilen değer doğrultusunda değişken içerisindeki metnin font boyutunu
+        değiştirerek geriye döndürür. */ 
+
+        var yazi = "Yazının boyutlarıyla oynayacağım.";
+        document.write(yazi + "<br/>");
+
+        // en fazla alabileceği değer 7 dir. 7den fazla değer alamaz.
+        var isleYazi = yazi.fontsize(5);
+
+        document.write(isleYazi + "<br/>");
+    </script>
+
+
+</body>
+</html>
