@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        // splice() in arrays.
+
+        // splice(); Allows deletion of an element or elements in arrays. Returns the deleted element or elements. it also adds an element or elements to the array.
+
+        var colors = ["red", "white", "black", "blue"]
+
+        document.write(colors + "<br/>")
+
+    //     var doProcess = colors.splice(1,2)
+
+    //     document.write(colors + "<br/>")
+
+    //    document.write("deleted value: " + doProcess)
+
+        var doProcess = colors.splice(2,0,"purple", "pink", "lilac")
+
+        document.write(colors)
+
+
+
+    </script>
+</body>
+</html>
