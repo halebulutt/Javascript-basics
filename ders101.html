@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* replace(); kendisine verilecek olan düzenli ifadeyi parametreler doğrultusunda
+        değişken içeriğini kontrol eder. ve aranan değerin eşleşmesi durumunda
+        eşleşmeyi sağlayan değerin değişimini sağlayarak yeni bir içerik oluşturur ve bunu geriye 
+        döndürür. */ 
+
+        var writing = "hale bulut konya hale"
+        var regularExpression = new RegExp("HALE", "gi",)
+        var result = writing.replace(regularExpression, "Beril")
+
+        document.write(result + "<br/>")
+
+
+    </script>
+</body>
+</html>

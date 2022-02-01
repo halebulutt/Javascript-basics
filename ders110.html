@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // nesnelerde delete metodu kullanımı
+
+        var person = {
+            name: "Hale",
+            surname: "Bulut",
+            age: 21,
+
+        }
+
+        delete person.surname
+
+        person.surname = "ömer"
+
+        var writeName = person.name
+        var writeSurname = person.surname
+        var writeAge = person.age
+
+        document.write(writeName + "<br/>")
+        document.write(writeSurname + "<br/>")
+        document.write(writeAge + "<br/>")
+
+
+    </script>
+</body>
+</html>

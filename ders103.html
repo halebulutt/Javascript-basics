@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /* getFullYear(); kullanıldığı değişken içeriğine yıl bilgisini 1000 ile 9999
+        arasında olmak kaydıyla rakamsal olarak atar. */ 
+
+        var time = new Date()
+        var year = time.getFullYear()
+        document.write(year + "<br/>")
+
+        /* getMonth(); kullanıldığı değişken içeriğine yılın ay bilgisini aktararak
+        0-11 arasında olmak üzere rakamsal olarak depolar ve değeri geriye döndürür. */ 
+
+        var month = time.getMonth()
+        document.write(month + "<br/>")
+
+        /* getDate(); kullanıldığı değişken içeriğine ayın gün bilgisini 1 ile 31 arasında olmak üzere 
+        rakamsal olarak depolar. */ 
+
+        var day = time.getDate()
+        document.write(day + "<br/>")
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /* i ayarı kullanımı: düzenli ifade dahilinde kontrol edilecek olan değişken içeriğinin
+        büyük harf ya da küçük harf ayrımına bakmaksızın kontrol edilmesini sağlar. */ 
+
+        var writing = "Hale BULUT Konya"
+        var regularExpression = new RegExp("hale", "i")
+        var result = writing.match(regularExpression)
+
+        document.write(result + "<br/>")
+
+
+    </script>
+</body>
+</html>
